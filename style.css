@@ -1,0 +1,136 @@
+body{
+    background-color: #000000;
+    color: #ffff;
+    font-family: "Jura", sans-serif;
+    font-weight: 400;
+}
+
+.header{
+    max-width: 1480px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+   padding-top: 40px;
+   padding-bottom: 40px;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'bodoni';
+    src: url('./bodoni.ttf');
+    font-weight: 400;
+}
+
+
+.logo{
+    margin-right: 140px;
+}
+
+.menu{
+    max-width: 1300px;
+    width: 100%;
+}
+.baner{
+    background-image: url('./Lars2.png');
+    background-position: 45px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1800px;
+    min-height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.banner-text{
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cinema{
+    color: #000;
+    font-size: 80px;
+    font-family: 'bodoni';
+
+}
+
+.name{
+    color: #000;
+}
+
+.text{
+    color: #000;
+    max-width: 640px;
+    font-size: 27px;
+}
+
+.menu{
+    list-style: none;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: jura;
+}
+
+.films{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.now {
+    font-size: 80px;
+    font-family: 'bodoni';
+}
+
+.film-row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+    
+}
+
+.film-cards{
+    max-width: 1500px;
+
+}
+
+.film-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #C6C4C5;
+    border-radius: 20px;
+    margin-left: 17.5px;
+    margin-right: 17.5px;
+}
+
+.film-img{
+    border-radius: 20px;
+}
+
+.film-text{
+    color: #000;
+    
+}
+
+.film-title{
+    font-weight: bold;
+    font-size: 26;
+}
+
+.film-desc{
+    font-size: 22;
+}
